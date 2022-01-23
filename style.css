@@ -1,0 +1,5 @@
+.slide-img {
+  height: 540px;
+  object-fit: cover;
+  filter: blur(2px);
+}
