@@ -1,5 +1,11 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
 .slide-img {
   height: 540px;
   object-fit: cover;
-  filter: blur(2px);
+  filter: brightness(55%);
 }
