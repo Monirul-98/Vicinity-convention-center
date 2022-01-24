@@ -9,3 +9,27 @@ body {
   object-fit: cover;
   filter: brightness(55%);
 }
+.package-title {
+  margin-bottom: 100px;
+}
+
+.col-hot {
+  height: 480px;
+  transform: translateY(-80px);
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+  position: relative;
+}
+@media only screen and (max-width: 576px) {
+  .col-hot {
+    transform: translateY(0px);
+  }
+  .package-title {
+    margin-bottom: 40px;
+  }
+}
+.col-hot > span {
+  position: absolute;
+  top: -15px;
+  right: 10px;
+}
